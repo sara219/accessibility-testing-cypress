@@ -2,7 +2,7 @@
 
 describe("Sign Up Accessibility test suite", () => {
   before(() => {
-    cy.visit("/");
+    cy.visit("http://localhost:3000");
     // inject axe accessibility testing library into the web page.
     cy.injectAxe();
   });
