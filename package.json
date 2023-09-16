@@ -16,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "cy:open": "npx cypress open",
+    "cy:headless": "npx cypress run --headless",
+    "cy:report": "npx cypress run --record --key bea24f7a-9ac9-4fbd-acd4-3762b53d63a4",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
